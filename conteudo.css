@@ -1,0 +1,34 @@
+/* Estilo da div de conteúdo */
+.conteudo {
+    display: flex; /* Usar flexbox para alinhar lado a lado */
+    /*boder: 2px solid #ccc; */
+    gap: 10px; /* Espaço entre o formulário e o informativo */
+    margin: 20px;
+    align-items: top; /* Centralizar verticalmente */
+}
+
+.formulario,
+.informativo {
+    flex: 1; /* Ambos ocupam a mesma largura disponível */
+    height: 250px; /* Adicione "px" para definir a altura */
+    overflow: hidden; /* Ou outro valor, como "scroll" ou "auto" */
+    padding: 10px;
+    border: 2px solid  #ccc;
+    border-radius: 20px;
+
+
+}
+
+.formulario input{
+    height: 2em;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: transparent;
+    color: rbg (247,242,242); /* Cor do texto em branco */
+    text-align: center;
+
+}
+
+
